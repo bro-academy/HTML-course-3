@@ -1,6 +1,6 @@
 # Lesson 2. Git: offline part
 
-**[Presentation](presentations/presentation-1.pdf)**<br />
+**[Presentation](presentations/git-0.pdf)**<br />
 **[Manual](manuals/manual-git.pdf)**<br />
 
 # Homework
