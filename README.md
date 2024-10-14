@@ -18,7 +18,7 @@
 
 9.10.24 [Lesson 1. Intro](lesson-1.md)  <br />
   
-14.10.2024 & 16.10.2024 [Lesson 2. GIT] <br />
+14.10.2024 & 16.10.2024 [Lesson 2. GIT](lesson-2.md) <br />
 
 21.10.2024 & 23.10.2024 [Lesson 3. HTML] <br />
 
