@@ -7,8 +7,28 @@ When developing a website, there are many conditions that must be met to ensure 
 ❤️ Mandatory for passing the course <br />
 💛 Required for the highest grade <br />
 💚 Optional  <br />
+
+## 1. GIT 
+
+1. ❤️  **The site should have a GitHub repository**
+
+2. ❤️ **There's no system file like .DS_Store or Thumbs.db in the repository**
+
+3. ❤️  **There are no commits in the target branch (usually main)**
+
+4. 💛 
+**Commit messages are descriptive**
+
+5. 💛 
+**Each commit is a logical unit**
+
+6. 💚 
+**Commits are atomic**
+
+7. 💚
+**Commit message no longer than 60 symbols**
  
-## 1. HTML
+## 2. HTML
 
 1. ❤️
 **The document must begin with ```<!DOCTYPE HTML>```.**  
@@ -124,14 +144,14 @@ The form cannot be submitted with empty fields. <br />
 Data in fields must match the field format. <br />
 
 
-## 2. CSS
+## 3. CSS
 
 1. ❤️
 **Single CSS File** <br />
 Use a single CSS file for all pages (style.css). <br />
 Normalize.css should be included as an additional file. 
 
-2. 💛
+2. 💚
 **Include Normalize.css** <br />
 https://necolas.github.io/normalize.css/  <br />
 Normalize.css should be linked before the main style file. 
@@ -296,7 +316,6 @@ width, height, position, padding, margin. <br />
 15. ❤️
 **Links must respond to ```:hover, :active и :focus```.** <br />
 If not specified in the design, you can use underline, color change, etc. <br />
-All external links, except for menu items, must respond to the ```:visited``` state, if you can add it. 
 
 16. 💛
 **Interactions( ```:hover, :active и :focus```) should not change the document flow.** <br />
@@ -332,7 +351,7 @@ CSS vendor prefixes are used and generated according to supported browsers. <br 
 **Comment magic numbers in functions and browser hacks.** 
 
 
-## 3. Images
+## 4. Images
 
 1. ❤️
 **Correct Image Format** <br />
@@ -374,18 +393,15 @@ WebP format can be used for critical pages, such as the homepage. <br />
 Complete guide to SVG sprites https://medium.com/@hayavuk/complete-guide-to-svg-sprites-7e202e215d34  
 
 
-## 4. Other 
+## 5. Other 
 
 1. ❤️
-**The site should have a GitHub repository.** 
-
-2. ❤️
 **The root document should have folders like css, img, js.** 
 
-3. ❤️
+2. ❤️
 **The main page should be named index.html.** 
 
-4. ❤️
+3. ❤️
 **File names and extensions should be lowercase without spaces.** <br />
 
    *Bad:*
@@ -404,7 +420,7 @@ Complete guide to SVG sprites https://medium.com/@hayavuk/complete-guide-to-svg-
    catalog-page.html
    ```
 
-5. ❤️
+4. ❤️
 **Files should be uniformly formatted.** <br />
 The same number of indents - tabs or spaces inside one file. <br />
 The same number of empty lines before/after elements. <br />
@@ -436,13 +452,13 @@ It's easiest to use automatic alignment in the code editor for this. <br />
    }
    ```
    
-6. ❤️
+5. ❤️
 **The layout should match the design exactly with Perfect pixel** <br />
 Block placement should be 1:1 compared to the design. <br />
 A discrepancy of up to 5px for text is allowed. <br />
 Corrections to the size and placement of poorly drawn blocks (1-2px difference on different pages) are allowed and even encouraged. 
 
-7. ❤️
+6. ❤️
 **The layout should display identically in the latest versions of Chrome, Opera, Firefox, Safari, and Edge.** <br />
 BrowserShots.org <br />
 Browserling.com <br />
@@ -450,13 +466,13 @@ BrowserStack <br />
 LambdaTest <br />
 CrossBrowserTesting <br />
 
-8. ❤️
+7. ❤️
 **The site should look good on all screen resolutions.** <br />
 At a width of 1280, the site should match the design. <br />
 At widths less than the design width, the site should either scale or have a horizontal scroll. <br />
 At widths greater than the design width, the site content should remain centered, and all backgrounds should stretch to the full screen width. There should be no horizontal scroll. 
 
-9. ❤️
+8. ❤️
 **The site should handle content overflow gracefully.** <br />
 When adding more text to elements; <br />
 Text should not fall out of objects; <br />
@@ -464,13 +480,13 @@ Text should not fall out of objects; <br />
 When using images of inappropriate sizes; <br />
 Overflow of content blocks should not break the grid. <br />
 
-10. 💛
+9. 💛
 **Unnecessary code should be removed before production.** <br />
 The layout should not contain commented-out "just in case" pieces of code, unnecessary unused files, old versions of files, etc. 
 
-11. 💚
+10. 💚
 **Use a typographer for text formatting.**  
 
-12. 💛
+11. 💛
 **There should be no errors in the browser console.** 
 
