@@ -1,10 +1,26 @@
-# Lesson 2. Version control & GIT 
+# Lesson 2. Git: offline part
 
-<!-- **[Presentation](presentations/presentation-3.pdf)**<br />
-**[Manual](manuals/manual-3.pdf)**<br />
-
+<!--
 **[Video record](https://drive.google.com/file/d/1Tb1lsks43vtdxjWWKCy8kkTLy6X1iRKr/view?usp=drive_link)** <br />
-**[Practice](practice/practice-3.pdf)**  -->
+-->
+
+**[Presentation](presentations/git-0.pdf)**<br />
+**[Manual](manuals/manual-git.pdf)**<br />
+
+# Homework
+
+You don't need to repeat what you already did on the lesson
+
+1. Open the repository link - [binabox](https://github.com/bro-academy/binabox)
+2. Find the fork button and click on it
+3. Choose `bro-academy` as an owner of the repo
+4. Add your GitHub username to repo name with minus sign, like `binabox-fogrew`
+5. Clone it to your computer via VS Code
+6. Locate the project folder on your computer and verify that it contains the forked files.
+7. Create a README.md file
+8. Describe your repo:
+   * Add your `@username` as a main contributor
+   * Add your mentor `@username` as a code reviewer
 
 # Additional Materials
 
@@ -39,21 +55,19 @@ All courses use console Git, but they are good for practicing basic commands and
 
 **[Amending Your Past Commits with Git](https://css-irl.info/amending-your-past-commits-with-git/)** - A guide to correcting previous commits using Git, which is useful for fixing errors and improving the change history.
 
-**[Modern Version Control with Git Series](https://www.smashingmagazine.com/2011/07/modern-version-control-with-git-series/)** - A series of articles on Smashing Magazine dedicated to modern version control methods using Git.
-
 **[Tracking Code Changes with Git Log](https://www.atatus.com/blog/tracking-code-changes-with-git-log/)** - A guide to using `git log` for effectively tracking code changes, simplifying revision and project history analysis.
 
 **[What Is Git Branch and How to Use It](https://www.atatus.com/blog/what-is-git-branch-and-how-to-use-it/)** and **[What Is Git Checkout Remote Branch: Benefits & Best Practices](https://www.atatus.com/blog/what-is-git-checkout-remote-branch-benefits-best-practices/)** - Articles dedicated to working with branches in Git, including creating, switching, and using remote branches. They offer tips on best practices and explain the benefits of various approaches.
-
-### Pull request
-
-🟢 **[Common Questions Everyone Has When Making Their First Pull Request (& Answers)](https://www.codecademy.com/resources/blog/tips-for-first-pull-request-in-github/)** - An article from Codecademy offering answers to common questions that developers may have when creating their first pull request on GitHub. It provides useful tips and best practices for beginners.
 
 ## GitHub
 
 🟢 **[GitHub Flow (Forking Workflow)](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)** - A guide from Atlassian explaining how the forking workflow works on GitHub. This approach allows developers to create personal copies (forks) of repositories for development without affecting the original project.
 
 **[GitHub vs. GitLab](https://www.atatus.com/blog/github-vs-gitlab/)** - An article comparing two popular code management platforms: GitHub and GitLab. It examines the key features of each platform, their advantages and disadvantages, to help you choose the most suitable tool for your project.
+
+### Pull request
+
+🟢 **[Common Questions Everyone Has When Making Their First Pull Request (& Answers)](https://www.codecademy.com/resources/blog/tips-for-first-pull-request-in-github/)** - An article from Codecademy offering answers to common questions that developers may have when creating their first pull request on GitHub. It provides useful tips and best practices for beginners.
 
 ## Markdown
 
