@@ -12,21 +12,30 @@ When developing a website, there are many conditions that must be met to ensure 
 
 1. ❤️  **The site should have a GitHub repository**
 
-2. ❤️ **There's no system file like .DS_Store or Thumbs.db in the repository**
+2. ❤️ **There's no system file like ```.DS_Store``` or ```Thumbs.db``` in the repository**
 
-3. ❤️  **There are no commits in the target branch (usually main)**
+3. ❤️  **There are no commits in the target branch (usually ```main```)**
 
 4. 💛 
-**Commit messages are descriptive**
+**Commit messages are descriptive**<br />
+✅ good: "fix validation in contact form" <br />
+❌ bad: "fix", "sdfsdf"<br />
+
+   Use the imperative mood<br />
+   ✅ good: "fix validation" <br />
+   ❌ bad: "fixed validation"<br />
 
 5. 💛 
-**Each commit is a logical unit**
+**Each commit is a logical unit**<br />
+don't commit more than described<br />
 
 6. 💚 
-**Commits are atomic**
+**Commits are atomic**<br />
+logical units, the smallest possible size<br />
 
 7. 💚
-**Commit message no longer than 60 symbols**
+**Commit message no longer than 60 symbols**<br />
+to be visible in GitHub UI
  
 ## 2. HTML
 
