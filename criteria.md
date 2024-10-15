@@ -71,13 +71,13 @@ Sizes – 16х16, 32х32, 48х48, 64х64.
 8. ❤️
 **No gross markup errors.**  
 
-   *Gross errors:*  
+   ❌ *Gross errors:*  
    Using tags other than ```<a>``` for links.  
    Using ```<span>``` for large layout blocks.  
    Using ```<br>``` for line breaks in text.  
    And so on...  
 
-   *Not gross errors:*  
+   ✅ *Not gross errors:*  
    Absence of semantic tags.  
    Violating the hierarchy of headings.  
 
@@ -86,13 +86,13 @@ Sizes – 16х16, 32х32, 48х48, 64х64.
 Use semantic tags like ```<header>, <main>, <footer>, <nav>,``` etc.  
 Headers should use ```<h1>``` to ```<h6>```, paragraphs ```<p>```, and ```<div>``` for containers.  
    
-   *Bad:*  
+   ❌ *Bad:*  
    ```
    <div class="hr"></div>
    <div class="header"></div>
    ```
    
-   *Good:*  
+   ✅ *Good:*  
    ```
    <hr>
    <header></header>
@@ -176,12 +176,12 @@ For example:  ```font-family: Roboto, Arial, sans-serif;```
 5. ❤️
 **Do not use !important in CSS.** <br />
 
-   *Bad:* 
+   ❌ *Bad:* 
    ```
    .link {color: red !important;}
    ```
 
-   *Good:*
+   ✅ *Good:*
    ```
    .selector .link {color: red;}
    ```
@@ -189,12 +189,12 @@ For example:  ```font-family: Roboto, Arial, sans-serif;```
 6. ❤️
 **Do not use #id for styling.** <br />
 
-   *Bad:* 
+   ❌ *Bad:* 
    ```
    #link {color: red;}
    ```
 
-   *Good:*
+   ✅ *Good:*
    ```
    .link {color: red;}
    ```
@@ -202,12 +202,12 @@ For example:  ```font-family: Roboto, Arial, sans-serif;```
 7. 💛
 **Avoid nesting selectors more than two levels deep.**  <br />
 
-   *Bad:*
+   ❌ *Bad:*
    ```
    .header .nav .nav-item .nav-link {}
    ```
 
-   *Good:*
+   ✅ *Good:*
    ```
    .nav-link {}
    .nav-link, 
@@ -220,13 +220,13 @@ For example:  ```font-family: Roboto, Arial, sans-serif;```
 **Avoid styling tags directly** <br />
 except for body, ul, a, img. <br />
 
-   *Bad:*
+   ❌ *Bad:*
    ```
    section {}
    header {}
    ```
 
-   *Good:*
+   ✅ *Good:*
    ```
    body {}
    ul {}
@@ -250,50 +250,50 @@ except for body, ul, a, img. <br />
    Do not mix px and em. <br />
    If the font-size/height is set in em, then set the margin/padding in em as well. 
 
-   *Bad:* 
-   ```
-   .link {
-      font-size: 12px;
-      line-height: 2em;
-   }
+      ❌ *Bad:* 
+      ```
+      .link {
+         font-size: 12px;
+         line-height: 2em;
+      }
 
-   .text {
-      padding: 8px;
-      margin: 2.5em;
-   }
+      .text {
+         padding: 8px;
+         margin: 2.5em;
+      }
 
-   ```
-   *Good:*
-   ```
-   .link {
-      font-size: 12px;
-      line-height: 2px;
-   }
+      ```
+      ✅ *Good:*
+      ```
+      .link {
+         font-size: 12px;
+         line-height: 2px;
+      }
 
-   .text {
-      padding: 8px;
-      margin: 2.5px;
-   }
-   ```
+      .text {
+         padding: 8px;
+         margin: 2.5px;
+      }
+      ```
 
 11. 💛
 **Colors should be in a consistent format (hex or rgba).** <br />
 Color notation is either in hex ```(#000)``` or rgba if there is transparency. <br />
 Keywords are not used. <br />
 
-   *Bad:* 
-   ```
-   .link {
-      color: black;
-   }
-   ```
+      ❌ *Bad:* 
+      ```
+      .link {
+         color: black;
+      }
+      ```
 
-   *Good:*
-   ```
-   .link {
-      color: #000;
-   }
-   ```
+      ✅ *Good:*
+      ```
+      .link {
+         color: #000;
+      }
+      ```
 
 12. ❤️
 **Use flex or grid for layouts** <br />
@@ -305,19 +305,19 @@ Use transform, translate, rotate, scale, opacity. <br />
 Do not use properties that cause the page to repaint:  <br />
 width, height, position, padding, margin. <br />
    
-   *Bad:* 
-   ```
-   .link:hover {
-      left: 50px;
-   }
-   ```
+      ❌ *Bad:* 
+      ```
+      .link:hover {
+         left: 50px;
+      }
+      ```
 
-   *Good:*
-   ```
-   .link:hover {
-      translate: 50px;
-   }
-   ```
+      ✅ *Good:*
+      ```
+      .link:hover {
+         translate: 50px;
+      }
+      ```
 
 14. ❤️
 **All element states from the style guide are implemented.** 
@@ -413,7 +413,7 @@ Complete guide to SVG sprites https://medium.com/@hayavuk/complete-guide-to-svg-
 3. ❤️
 **File names and extensions should be lowercase without spaces.** <br />
 
-   *Bad:*
+   ❌ *Bad:*
    ```
    Style.css
    Images
@@ -421,7 +421,7 @@ Complete guide to SVG sprites https://medium.com/@hayavuk/complete-guide-to-svg-
    loginPage.html
    ```
 
-   *Good:*
+   ✅ *Good:*
    ```
    style.css
    img
@@ -436,7 +436,7 @@ The same number of empty lines before/after elements. <br />
 Correct code nesting is maintained. <br />
 It's easiest to use automatic alignment in the code editor for this. <br />
    
-   *Bad:*
+   ❌ *Bad:*
    ```
    .link:before {
       font-size:         12px;
@@ -449,7 +449,7 @@ It's easiest to use automatic alignment in the code editor for this. <br />
    }
    ```
    
-   *Good:*
+   ✅ *Good:*
    ```
    .link::before {
       font-size: 12px;
@@ -486,8 +486,8 @@ At widths greater than the design width, the site content should remain centered
 When adding more text to elements; <br />
 Text should not fall out of objects; <br />
 
-When using images of inappropriate sizes; <br />
-Overflow of content blocks should not break the grid. <br />
+   When using images of inappropriate sizes; <br />
+   Overflow of content blocks should not break the grid. <br />
 
 9. 💛
 **Unnecessary code should be removed before production.** <br />
