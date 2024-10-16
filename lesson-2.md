@@ -1,10 +1,11 @@
-# Lesson 2. Git: offline part
-
 <!--
 **[Video record](https://drive.google.com/file/d/1Tb1lsks43vtdxjWWKCy8kkTLy6X1iRKr/view?usp=drive_link)** <br />
 -->
 
-**[Presentation](presentations/git-0.pdf)**<br />
+# Lesson 2. Git: offline part
+
+**[Presentation: Git offline](presentations/git-0.pdf)**<br />
+**[Presentation: Git online](presentations/git-1.pdf)**<br />
 **[Manual](manuals/manual-git.pdf)**<br />
 
 # Homework
@@ -17,10 +18,16 @@ You don't need to repeat what you already did on the lesson
 4. Add your GitHub username to repo name with minus sign, like `binabox-fogrew`
 5. Clone it to your computer via VS Code
 6. Locate the project folder on your computer and verify that it contains the forked files.
-7. Create a README.md file
-8. Describe your repo:
+7. Create a branch for your task
+8. Create a README.md file
+9. Describe your repo:
    * Add your `@username` as a main contributor
    * Add your mentor `@username` as a code reviewer
+10. Add the file to stage
+11. Write a commit message and press Commit
+11. Publish the branch or push your changes if branch is already published
+12. Create a pull request
+13. Attach the link of it to the task into Pull Request field (above the description)
 
 # Additional Materials
 
