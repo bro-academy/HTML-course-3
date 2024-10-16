@@ -1,8 +1,8 @@
-# Lesson 1. How the Internet and Browser Work
+# Lesson 1. Intro
 
-**[Presentation](presentations/presentation-1.pdf)**<br />
-**[Manual](manuals/manual-1.pdf)**<br />
-**[Video record](https://drive.google.com/file/d/15Yyum7uykczxJKonL568PyvMHDH4TKsb/view?usp=drive_link)**<br />
+**[Presentation](presentations/lesson-1-intro.pdf)**<br />
+<!-- **[Manual](manuals/manual-1.pdf)**<br />
+**[Video record](https://drive.google.com/file/d/15Yyum7uykczxJKonL568PyvMHDH4TKsb/view?usp=drive_link)**<br /> -->
 
 # Homework
 
@@ -14,7 +14,7 @@
 6. Read the additional materials. There is a lot of material, and it can take a long time to read it all. Plus, there is a big list of resources where you can independently search for the information you need.  <br />
 🟢 — must read <br />
 🔵 — can be read after the course <br />
-7. When you are added to Jira, I will create a task for each of you. You will need to track its status from **“To Do”** to **“Code Review”**. Only mentors can set the status to **“Done”**. It’s test tasks for try to use Jira. 
+7. When you are added to Jira, I will create a task for each of you. You will need to track its status from **“To Do”** to **“For Review”**. Only mentors can set the status to **“Done”**. It’s test tasks for try to use Jira. 
 
 # Additional Materials
 
@@ -22,13 +22,9 @@
 
 🟢 **[Introduction to IT course from Codecademy](https://www.codecademy.com/learn/introduction-to-it)** - An introductory course on information technology offered by Codecademy. The course covers IT fundamentals, including data basics, programming, web development, and more. Designed for those who want to gain foundational knowledge in IT.
 
-## History 
+## Basics 
 
 🟢 **[General IT dictionary](https://www.codecademy.com/resources/docs/general)** - This extensive dictionary provides definitions for all key IT terms, making it an indispensabe resource for students and professionals in the field of information technology.
-
-**[What Is an Operating System?](https://www.codecademy.com/resources/blog/operating-system/)** - Explaining the basic concepts and functions of operating systems, this article is a great introduction for those who want to understand how computers and mobile devices work at the most basic level.
-
-## Basics 
 
 🟢 **[Using CodePen for Rapid Web Development](https://css-tricks.com/video-screencasts/112-using-codepen/)** - Discover how CodePen can become your indispensable tool for quick web project development and code experimentation.
 
@@ -49,45 +45,6 @@
 🟢 **[How to Ask Good Questions](https://jvns.ca/blog/good-questions/)** - Tips on how to formulate questions for effective problem-solving in software development.
 
 **[Fail Faster at Habits](https://zenhabits.net/ship/)** - The importance of quick failure in habit formation and how it can contribute to personal growth.
-
-## Internet
-
-🟢 **[How Does the Internet Work?](https://www.codecademy.com/resources/blog/how-does-the-internet-work/)** - A clear explanation of how the internet works, including a description of how data is transmitted through computer networks.
-
-**[What Is an IP Address?](https://www.codecademy.com/resources/blog/ip-address/)** - An explanation of the concept of IP addresses, their role in the internet, and how they are used to identify devices on a network.
-
-## Networks
-
-**[What Is a Computer Network?](https://www.codecademy.com/resources/blog/what-is-a-computer-network/)** - An introduction to the concepts of computer networks, explaining how they allow devices to communicate with each other. This article is an ideal resource for beginners looking to understand the basics of networking technologies.
-
-## HTTP
-
-**[Guide to Switching from HTTP to HTTPS](https://www.smashingmagazine.com/2017/06/guide-switching-http-https/)** - A practical guide to switching from HTTP to HTTPS, emphasizing the importance of website security and providing steps for securing it.
-
-## URL
-
-**[Does 'www' Still Belong in URLs?](https://css-tricks.com/does-www-still-belong-in-urls/)** - Reflections on whether the use of "www" in URLs is still relevant today and how it affects the technical side of web projects and user experience. The article offers interesting arguments and opinions on this issue.
-
-### How Browsers Work
-
-🟢 **[Detailed Article on How Browsers Work](https://web.dev/howbrowserswork/)** - This material offers a deep and comprehensive dive into the architecture and mechanisms of modern web browsers. While the article may seem complex for beginners, it will become a valuable resource for advanced users wanting to understand the intricacies of browser operation. Recommended to bookmark for future study.
-
-**A Series of Articles on How Browsers Work (from Chrome Developers)**:
-- [Part 1: Introduction](https://developer.chrome.com/blog/inside-browser-part1/) - The beginning of a series of articles presenting a detailed look at the inner workings and processes of the Chrome browser, from loading a web page to its rendering.
-- [Part 2: Rendering](https://developer.chrome.com/blog/inside-browser-part2/) - Discussing the process of rendering web pages, including analyzing the DOM, styles, and layout.
-- [Part 3: Compositing and Painting](https://developer.chrome.com/blog/inside-browser-part3/) - The conclusion of the series explaining the compositing and painting processes that turn the web page code into a visual representation in the browser.
-
-### How Pages Are Displayed
-
-🟢 **[What Happens When…](https://github.com/htmlacademy/what-happens-when)** - The English version of a detailed explanation of the process that occurs after entering a URL in the browser, starting from the DNS request to the page display.
-
-**[Understanding the Critical Rendering Path](https://bitsofco.de/understanding-the-critical-rendering-path/)** - An explanation of the critical rendering path, key to understanding how browsers analyze and display content. The article explores how optimizing this process can significantly improve web page performance.
-
-### DOM
-
-**[A Beginner's Guide to DOM](https://www.atatus.com/blog/a-beginners-guide-to-dom)** - This guide for beginner developers offers the basics of the Document Object Model (DOM), a key concept in web development, explaining how browsers create a representation of a web page based on HTML and how developers can interact with this representation to dynamically change content.
-
-**[Document Object Model Geometry Guide](https://www.smashingmagazine.com/2022/11/document-object-model-geometry-guide/)** - A deep dive into the geometry of the DOM, providing developers with the knowledge to more effectively manage the layout and dimensions of elements on web pages. This guide will help you better control the visual representation of content.
 
 ## Developer Resources
 
@@ -216,8 +173,51 @@ Google Chrome Developers is a channel by Google developers, featuring some amazi
 **[Apna College](https://www.youtube.com/channel/UCBwmMxybNva6P_5VmxjzwqA)**
 Last but not the least, Apna College with Aman Dhattarwal with his team as the face of the channel has an amazing animated course on Web Development on Apna College. The course is taught by a guy who has cleared Google Summer of Code being from a non-cs background. Apna College has 509k subscribers and 25 million views on the channel.
 
-***
-
 ## Tools
 
 **[Tiny Helpers](https://tiny-helpers.dev/)** - A curated collection of useful online tools for developers and designers. Includes a wide range of tools on various topics, including CSS, JavaScript, accessibility, colors, optimization, and more. An excellent resource for simplifying and automating web development tasks.
+
+***
+
+## IT
+
+**[What Is an Operating System?](https://www.codecademy.com/resources/blog/operating-system/)** - Explaining the basic concepts and functions of operating systems, this article is a great introduction for those who want to understand how computers and mobile devices work at the most basic level.
+
+## Internet
+
+🟢 **[How Does the Internet Work?](https://www.codecademy.com/resources/blog/how-does-the-internet-work/)** - A clear explanation of how the internet works, including a description of how data is transmitted through computer networks.
+
+**[What Is an IP Address?](https://www.codecademy.com/resources/blog/ip-address/)** - An explanation of the concept of IP addresses, their role in the internet, and how they are used to identify devices on a network.
+
+## Networks
+
+**[What Is a Computer Network?](https://www.codecademy.com/resources/blog/what-is-a-computer-network/)** - An introduction to the concepts of computer networks, explaining how they allow devices to communicate with each other. This article is an ideal resource for beginners looking to understand the basics of networking technologies.
+
+## HTTP
+
+**[Guide to Switching from HTTP to HTTPS](https://www.smashingmagazine.com/2017/06/guide-switching-http-https/)** - A practical guide to switching from HTTP to HTTPS, emphasizing the importance of website security and providing steps for securing it.
+
+## URL
+
+**[Does 'www' Still Belong in URLs?](https://css-tricks.com/does-www-still-belong-in-urls/)** - Reflections on whether the use of "www" in URLs is still relevant today and how it affects the technical side of web projects and user experience. The article offers interesting arguments and opinions on this issue.
+
+### How Browsers Work
+
+🟢 **[Detailed Article on How Browsers Work](https://web.dev/howbrowserswork/)** - This material offers a deep and comprehensive dive into the architecture and mechanisms of modern web browsers. While the article may seem complex for beginners, it will become a valuable resource for advanced users wanting to understand the intricacies of browser operation. Recommended to bookmark for future study.
+
+**A Series of Articles on How Browsers Work (from Chrome Developers)**:
+- [Part 1: Introduction](https://developer.chrome.com/blog/inside-browser-part1/) - The beginning of a series of articles presenting a detailed look at the inner workings and processes of the Chrome browser, from loading a web page to its rendering.
+- [Part 2: Rendering](https://developer.chrome.com/blog/inside-browser-part2/) - Discussing the process of rendering web pages, including analyzing the DOM, styles, and layout.
+- [Part 3: Compositing and Painting](https://developer.chrome.com/blog/inside-browser-part3/) - The conclusion of the series explaining the compositing and painting processes that turn the web page code into a visual representation in the browser.
+
+### How Pages Are Displayed
+
+🟢 **[What Happens When…](https://github.com/htmlacademy/what-happens-when)** - The English version of a detailed explanation of the process that occurs after entering a URL in the browser, starting from the DNS request to the page display.
+
+**[Understanding the Critical Rendering Path](https://bitsofco.de/understanding-the-critical-rendering-path/)** - An explanation of the critical rendering path, key to understanding how browsers analyze and display content. The article explores how optimizing this process can significantly improve web page performance.
+
+### DOM
+
+**[A Beginner's Guide to DOM](https://www.atatus.com/blog/a-beginners-guide-to-dom)** - This guide for beginner developers offers the basics of the Document Object Model (DOM), a key concept in web development, explaining how browsers create a representation of a web page based on HTML and how developers can interact with this representation to dynamically change content.
+
+**[Document Object Model Geometry Guide](https://www.smashingmagazine.com/2022/11/document-object-model-geometry-guide/)** - A deep dive into the geometry of the DOM, providing developers with the knowledge to more effectively manage the layout and dimensions of elements on web pages. This guide will help you better control the visual representation of content.
