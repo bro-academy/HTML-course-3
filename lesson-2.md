@@ -1,10 +1,10 @@
 # Lesson 2. Git: offline part
 
-<!--
-**[Video record](https://drive.google.com/file/d/1Tb1lsks43vtdxjWWKCy8kkTLy6X1iRKr/view?usp=drive_link)** <br />
--->
+**[Video record part 2](https://drive.google.com/file/d/1xYI7P6JE8VNukwGaCM3R6S88hGGI9mRW/view?usp=sharing)** <br />
 
-**[Presentation](presentations/git-0.pdf)**<br />
+
+**[Presentation 1](presentations/git-0.pdf)**<br />
+**[Presentation 2](presentations/git-1.pdf)**<br />
 **[Manual](manuals/manual-git.pdf)**<br />
 
 # Homework
