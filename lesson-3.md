@@ -13,7 +13,7 @@
 
 1. Make semantic markup for the **Homepage** [template](https://www.figma.com/design/jqIedRSOsKC20T9QeDDNdL/BinaBox-UI-KIT?node-id=4581-24482&node-type=section&t=jTPmqXeLfy9U9gBW-0).
 
-   1. Create file for markup - index.html <br />
+   1. Choose file - index.html <br />
    2. Choose semantic tags, exclude block with search in header. <br />
       All elements should be assigned classes. [Common class names cheat sheet](lesson-2-homeworks/class-names.md). <br />
    3. Before submitting for review, [validate](https://validator.nu/#textarea) the markup.
@@ -30,104 +30,81 @@ Name for file - blog-article.html
 
 2.1. ❤️
 **The document must begin with ```<!DOCTYPE HTML>```.**  
-A correct doctype ensures the pages display according to standards.  
-
 2.2. ❤️
 **Each page must have the lang attribute set according to the page's language.**  
-
 2.3. ❤️
 **The document must have a specified encoding.**  
-UTF-8 is universal and compatible; it is the current standard.  
-
 2.4. ❤️
 **Title Tag must be set on all pages.**  
-SEO: Google trims titles between 472 to 482 pixels, so the title length should be around 55 characters.  
-```<title>``` must be unique on each page.  
-
 2.5. 💚
 **Description meta tag must be set**  
-The ```<meta type=”description”>``` must be unique and less than 150 characters.  
-It appears in search engines below the title.   
-
 2.8. ❤️
 **No gross markup errors.**  
-
-   ❌ *Gross errors:*  
-   Using tags other than ```<a>``` for links.  
-   Using ```<span>``` for large layout blocks.  
-   Using ```<br>``` for line breaks in text.  
-   And so on...  
-
-   ✅ *Not gross errors:*  
-   Absence of semantic tags.  
-   Violating the hierarchy of headings.  
+❌ *Gross errors:*  
+- Using tags other than ```<a>``` for links.  
+- Using ```<span>``` for large layout blocks.  
+- Using ```<br>``` for line breaks in text.  
+- And so on...  
+✅ *Not gross errors:*  
+- Absence of semantic tags.  
+- Violating the hierarchy of headings.  
 
 2.9. ❤️
 **Semantic Markup**  
 Use semantic tags like ```<header>, <main>, <footer>, <nav>,``` etc.  
-Headers should use ```<h1>``` to ```<h6>```, paragraphs ```<p>```, and ```<div>``` for containers.  
-   
+Headers should use ```<h1>``` to ```<h6>```, paragraphs ```<p>```, and ```<div>``` for containers.   
    ❌ *Bad:*  
    ```
    <div class="hr"></div>
    <div class="header"></div>
-   ```
-   
+   ```  
    ✅ *Good:*  
    ```
    <hr>
    <header></header>
    ```
-
 2.10. ❤️
 **The layout must be valid.**  
 HTML must pass validation at https://validator.w3.org/  
-
 2.11. 💛
-**Classes are named correctly:**  
-No transliteration in class names, attributes, etc.  
-Only lowercase letters are used.  
-If a class name consists of several words, use hyphens between the words: slider-block, etc.  
-Do not use presentational classes that specify styles (fz-15, color-green, block-left).  
-The class name should reflect the purpose (semantics) of the block, not its appearance.  
-
+**Classes are named correctly**  
 2.12. 💛
 **Use the minimum possible number of HTML elements.**  
 No unnecessary wrappers in the markup.  
-There should be no empty blocks for presentational purposes. Use pseudo-elements for this.  
-🚩 If an element has no styles or they can be transferred to the nearest enclosing element.  
-
 2.13. 💛
 **The logo on internal pages should lead to the home page.**  
 On the home page, the logo should not lead to any page.  
-
 2.14. ❤️
 **All pages should be linked and checked for broken links.**  
-
 2.15. 💛
 **External links should have the attribute ```target="_blank"```.**  
-
 2.16. ❤️
 **Each page must have an ```<h1>``` tag that is different from the page title.**  
-
 2.17. 💛
 **The heading tree structure is maintained.** <br />
 From the headings, a table of contents can be formed like in a book. <br />
 Heading levels go in order from top to bottom and are not skipped. <br />
 Check it on https://yoksel.github.io/html-tree.  <br />
+5.1. ❤️
+**The root document should have folders like css, img, js.** 
+5.2. ❤️
+**The main page should be named index.html.** 
+5.3. ❤️
+**File names and extensions should be lowercase without spaces.** <br />
+5.4. ❤️
+**Files should be uniformly formatted.** <br />
 
 ## Additional homework 
 
 1. If you need more additional information in interactive format, you can choose one of this courses:
-[FreeCodeCamp HTML Course](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1)  <br />
-   or  <br />
-   [Scaler HTML Course](https://www.scaler.com/topics/html/). Complete Modules 1-5.
+[FreeCodeCamp HTML Course](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1)  
+   or [Scaler HTML Course](https://www.scaler.com/topics/html/). Complete Modules 1-5.
 
 2. Detailed Tutorial on Creating and Marking Up a Web Page. You can skip it, if you have experience with markup basic. 
    - [MaxDesign Tutorial](https://russmaxdesign.github.io/maxdesign-slides/01-html/106-creating-document.html#/)
    - This tutorial provides step-by-step instructions on marking up a webpage. You can choose any text to place on your site, such as your hobby—nuclear reactors of submarines, extinct animals, or Winx fairies. You can work in a code editor or CodePen. The goal is to consolidate all the steps for marking up a document and create a simple markup.
 
-    Additional exercises by the same author from task 3:  
+    Additional exercises by the same author:  
    - [Basic HTML](https://github.com/russmaxdesign/maxdesign-slides/blob/master/01-html/lesson01.pdf)
    - [Content Markup](https://github.com/russmaxdesign/maxdesign-slides/blob/master/01-html/lesson02.pdf)
    - [Scripts and Styles](https://github.com/russmaxdesign/maxdesign-slides/blob/master/01-html/lesson03.pdf)
@@ -143,12 +120,22 @@ Check it on https://yoksel.github.io/html-tree.  <br />
    - our blog 
    - catalog (exclude filters)
    - contacts (exclude form) 
+   
+   If you have time for additional homework, please create your own subtask [here](https://bro-academy.atlassian.net/browse/BAHC3-57) with:
+   - lesson number
+   - task name
+   - your name
 
-In the next lessons, you can continue working on these layouts and start styling, but this is not mandatory.
+   For example:
+   ```Lesson 3. Markup of catalog page BinaBox [Elizaveta Pak]```
+
+If you are done with all additional tasks, you can start work with Diploma project.
 
 # Demos
 
 This section contains examples of different components in code. You can take code from here for layout.
+
+🟢  **[Examples of Various HTML Codes with Comments](https://css-tricks.com/snippets/html/)**: CSS-Tricks offers a collection of HTML snippets with comments that can serve as useful guides and sources of inspiration for developers. In addition to HTML, the site also features articles on a variety of topics related to web development.
 
 **[Examples of What All HTML Tags Look Like on a Page Without Styles](http://russmaxdesign.github.io/html-css-tests/sample-format/index.htm)**: This resource demonstrates the appearance of all HTML tags in their "raw" form without applying styles. A great way to see the basic structure and behavior of elements.
 
@@ -216,11 +203,11 @@ This section contains examples of different components in code. You can take cod
 
 **[Learn HTML on Codecademy](https://www.codecademy.com/learn/learn-html)**: A general course on HTML on Codecademy, covering everything from basic to more advanced aspects of the markup language.
 
-**[Learn HTML & CSS: How To Start Your Web Development Career on Udemy](https://www.udemy.com/course/how-i-landed-a-web-development-job-earned-5k-freelancing/)**: A free course that will tell you how to start a web developer career, focusing on HTML and CSS.
+<!-- **[Learn HTML & CSS: How To Start Your Web Development Career on Udemy](https://www.udemy.com/course/how-i-landed-a-web-development-job-earned-5k-freelancing/)**: A free course that will tell you how to start a web developer career, focusing on HTML and CSS. -->
 
-**[Semantic HTML: How to Structure Web Pages on Tuts+](https://webdesign.tutsplus.com/semantic-html-how-to-structure-web-pages--CRS-200231c)**: The course teaches the use of semantic tags in HTML to create well-structured web pages.
+**[Semantic HTML: How to Structure Web Pages on Tuts+](https://webdesign.tutsplus.com/semantic-html-how-to-structure-web-pages--CRS-200231c)**: The video course teaches the use of semantic tags in HTML to create well-structured web pages.
 
-**[Figma to HTML: Code Up a Single Page Design on Tuts+](https://webdesign.tutsplus.com/figma-to-html-code-up-a-single-page-design--CRS-200953c)**: Learn how to turn a design from Figma into a working web page using HTML. The course is suitable for designers and developers wanting to improve their skills in implementing designs.
+<!-- **[Figma to HTML: Code Up a Single Page Design on Tuts+](https://webdesign.tutsplus.com/figma-to-html-code-up-a-single-page-design--CRS-200953c)**: Learn how to turn a design from Figma into a working web page using HTML. The course is suitable for designers and developers wanting to improve their skills in implementing designs. -->
 
 # Additional materials eng 
 
@@ -278,25 +265,25 @@ It is very useful to learn and know, with practice all the abbreviations are mem
 
 ## History
 
-**[How HTML5 Came to Be](http://diveintohtml5.info/past.html)**: This article vividly tells the story of HTML's development up to version HTML5, highlighting significant moments and turning points in the history of web standards. It sheds light on the evolution and key changes that have made HTML5 one of the most powerful tools in the modern web developer's arsenal, explaining why these changes are so important to the industry as a whole.
+🟢 **[Justice For HTML/CSS: How These Languages Built The 2000s Internet & Launched Countless Tech Careers](https://www.codecademy.com/resources/blog/are-html-css-real-programming-languages/)**: This article from Codecademy defends HTML and CSS, arguing that they are real programming languages. It examines their contribution to creating the internet of the 2000s and how these languages helped launch countless tech careers.
+
+<!-- **[How HTML5 Came to Be](http://diveintohtml5.info/past.html)**: This article vividly tells the story of HTML's development up to version HTML5, highlighting significant moments and turning points in the history of web standards. It sheds light on the evolution and key changes that have made HTML5 one of the most powerful tools in the modern web developer's arsenal, explaining why these changes are so important to the industry as a whole. -->
 
 **[A Brief History of HTML5](https://webdesign.tutsplus.com/a-brief-history-of-html5--net-23064a)**: This article provides a brief description of HTML5's history, highlighting its development and transformation into the leading tool for creating modern web applications and sites. The author shares important moments that every developer should know, showing how HTML5 has influenced the standards and practices of web development.
 
-**[HTML Full Form](https://www.scaler.com/topics/html-full-form/)**: This article explains the full form of the HTML acronym and tells about its history. It provides interesting facts about the origin of HTML and its development over time, emphasizing the importance of HTML as the foundation of web technologies.
+<!-- **[HTML Full Form](https://www.scaler.com/topics/html-full-form/)**: This article explains the full form of the HTML acronym and tells about its history. It provides interesting facts about the origin of HTML and its development over time, emphasizing the importance of HTML as the foundation of web technologies. -->
 
-**[What is HTML5](https://webdesign.tutsplus.com/what-is-html5--cms-25803t)**: This article examines in detail what HTML5 is, its innovations and improvements over previous versions. The author explains how these changes improve web development and provide new opportunities for creating more dynamic and interactive web pages.
+<!-- **[What is HTML5](https://webdesign.tutsplus.com/what-is-html5--cms-25803t)**: This article examines in detail what HTML5 is, its innovations and improvements over previous versions. The author explains how these changes improve web development and provide new opportunities for creating more dynamic and interactive web pages. -->
 
 **[HTML vs. HTML5: Learn the Difference Between Them](https://www.atatus.com/blog/html-vs-html5-learn-the-difference-between-them/)**: This article compares HTML and HTML5, highlighting the key differences and innovations in the latest version of the standard. Readers are provided with information on how these changes affect the development process and offer new opportunities for web developers.
 
-**[Justice For HTML/CSS: How These Languages Built The 2000s Internet & Launched Countless Tech Careers](https://www.codecademy.com/resources/blog/are-html-css-real-programming-languages/)**: This article from Codecademy defends HTML and CSS, arguing that they are real programming languages. It examines their contribution to creating the internet of the 2000s and how these languages helped launch countless tech careers.
-
-## References
+## Start with:
 
 **[HTML Tutorial](https://devdojo.com/guide/html)**: This tutorial is designed for those who want to master HTML and become a real "ninja" in this field. From scratch to advanced level, the course materials teach how to create structured and quality web pages. Perfect for beginners and those who want to deepen their knowledge of HTML.
 
 **[Official HTML Specification](https://html.spec.whatwg.org/multipage/)**: This document is the most complete and authoritative source of information about HTML. It contains everything you need to know about the markup language, its elements, and attributes. While the material may seem complex for beginners due to the abundance of technical terms, over time, it becomes an invaluable resource for a deep understanding of all aspects of HTML.
 
-**[HTML Tags List](https://www.scaler.com/topics/html/html-tags-list/)**: The article presents a list of basic HTML tags and their use. This is a great starting resource for beginners who want to quickly familiarize themselves with the most commonly used tags and start practicing their application in their projects.
+<!-- **[HTML Tags List](https://www.scaler.com/topics/html/html-tags-list/)**: The article presents a list of basic HTML tags and their use. This is a great starting resource for beginners who want to quickly familiarize themselves with the most commonly used tags and start practicing their application in their projects. -->
 
 **[Elements and Structure Cheatsheets](https://www.codecademy.com/learn/learn-html-web-dev-path/modules/learn-html-elements/cheatsheet)**: Codecademy offers cheatsheets on HTML elements and structure that can serve as a quick reference when creating web pages. These cheatsheets are perfect for beginner developers wanting to solidify their knowledge of basic HTML elements and their usage.
 
@@ -322,23 +309,19 @@ It is very useful to learn and know, with practice all the abbreviations are mem
 
 🟢 **[15 Beginner Only HTML and CSS Mistakes](https://devdojo.com/rahulism/15-beginner-only-html-and-css-mistakes)**: Rahulism on DevDojo shares a list of 15 typical mistakes often made by beginners when working with HTML and CSS. This resource can help beginners overcome initial difficulties and improve the quality of their code.
 
-🟢  **[Examples of Various HTML Codes with Comments](https://css-tricks.com/snippets/html/)**: CSS-Tricks offers a collection of HTML snippets with comments that can serve as useful guides and sources of inspiration for developers. In addition to HTML, the site also features articles on a variety of topics related to web development.
-
-🟢 **[The Correct Sequence of HTML Tags for Starting a Web Page Is...](https://www.scaler.com/topics/the-correct-sequence-of-html-tags-for-starting-a-web-page-is/)**: Learn about the correct sequence of HTML tags necessary for starting a web page. This article is an excellent resource for beginner developers wanting to learn about the structure of HTML documents and best practices for creating them.
+**[The Correct Sequence of HTML Tags for Starting a Web Page Is...](https://www.scaler.com/topics/the-correct-sequence-of-html-tags-for-starting-a-web-page-is/)**: Learn about the correct sequence of HTML tags necessary for starting a web page. This article is an excellent resource for beginner developers wanting to learn about the structure of HTML documents and best practices for creating them.
 
 **[Table Indicating Element Types](http://russmaxdesign.github.io/html-css-tests/sample-full-element-list/index.htm)**: This resource provides a table classifying HTML5 elements by types and categories. The table can help developers better understand element membership and correctly use them when creating web pages.
 
-**[Common SEO Markup Mistakes](https://www.semrush.com/blog/biggest-seo-mistakes/#under-optimizing-meta-tags)**: SEMrush discusses common web development mistakes that can negatively impact SEO. Special attention is given to under-optimized meta tags, which are a critical aspect of improving web page visibility in search engines. Important recommendations can help avoid common SEO pitfalls.
+<!-- **[Common SEO Markup Mistakes](https://www.semrush.com/blog/biggest-seo-mistakes/#under-optimizing-meta-tags)**: SEMrush discusses common web development mistakes that can negatively impact SEO. Special attention is given to under-optimized meta tags, which are a critical aspect of improving web page visibility in search engines. Important recommendations can help avoid common SEO pitfalls. -->
 
 ## Semantics
 
 🟢 **[Semantic Tags in HTML](https://www.scaler.com/topics/html/semantic-tags-in-html/)**: Scaler explains the importance of semantic tags in HTML, emphasizing their role in improving accessibility and SEO. The article provides an overview of the main semantic elements and their application for creating structured and logically organized web pages.
 
+🟢 **[Importance of Tags from an SEO Perspective](https://www.semrush.com/blog/best-practices-in-semantic-html5-for-content-writers/)**: SEMrush shares best practices for using semantic HTML5 from an SEO perspective for content marketers. The article explains how the correct application of semantic tags can significantly improve a website's positioning in search engines, making content more understandable and relevant to search queries.
+
 **[What is Semantic HTML & Why Is It Important for Accessibility?](https://www.codecademy.com/resources/blog/semantic-html/)**: Codecademy provides a detailed overview of semantic HTML, explaining why it is critically important for accessibility. The article emphasizes how semantic markup helps create more accessible web pages, improving interaction with various screen reading devices and search engines, which in turn contributes to broader content accessibility on the internet.
-
-**[Importance of Tags from an SEO Perspective](https://www.semrush.com/blog/best-practices-in-semantic-html5-for-content-writers/)**: SEMrush shares best practices for using semantic HTML5 from an SEO perspective for content marketers. The article explains how the correct application of semantic tags can significantly improve a website's positioning in search engines, making content more understandable and relevant to search queries.
-
-**[Semantic HTML Cheatsheets](https://www.codecademy.com/learn/learn-html-semantic-html/modules/html-semantic-html/cheatsheet)**: Codecademy offers cheatsheets on semantic HTML, serving as a quick reference for developers wanting to use semantic elements in their projects. These cheatsheets make it easier to choose the correct tags for content markup, contributing to the creation of more accessible and SEO-optimized web pages.
 
 ## Tags
 
@@ -346,17 +329,13 @@ It is very useful to learn and know, with practice all the abbreviations are mem
 
 ### Head
 
-🟢 **[The `<head>` Tag in HTML](https://www.scaler.com/topics/html/head-tag-in-html/)**: This article provides a comprehensive overview of the `<head>` tag in HTML, which is an important element of every web page, containing metadata, links to styles, scripts, and other information necessary for the correct display and functioning of the page.
+🟢 **[How to Properly Fill the Head Tag](https://htmlhead.dev/?ref=tiny-helpers)**: This resource offers a detailed guide on optimally filling the `<head>` tag, including modern practices and examples of using various meta tags, links, and other elements that should be included to improve SEO, compatibility, and user experience.
 
-**[How to Properly Fill the Head Tag](https://htmlhead.dev/?ref=tiny-helpers)**: This resource offers a detailed guide on optimally filling the `<head>` tag, including modern practices and examples of using various meta tags, links, and other elements that should be included to improve SEO, compatibility, and user experience.
-
-**[The `<meta>` Tag in HTML](https://www.scaler.com/topics/meta-tag-in-html/)**: The article explains the use of the `<meta>` tag to define meta-information in HTML. It explains how to properly use meta tags to specify page descriptions, keywords, authorship, and other important data that help search engines and other services better understand and index content.
+<!-- **[The `<meta>` Tag in HTML](https://www.scaler.com/topics/meta-tag-in-html/)**: The article explains the use of the `<meta>` tag to define meta-information in HTML. It explains how to properly use meta tags to specify page descriptions, keywords, authorship, and other important data that help search engines and other services better understand and index content. -->
 
 **[Meta Tags and Other Useful HTML Tags](https://sharkcoder.com/html/meta)**: This resource teaches the use of the most useful and relevant meta tags, providing search engines with information about your web page. In addition to meta tags, the article also covers other important HTML tags that can improve SEO and user experience.
 
 **[Meta Tags and SEO](https://webdesign.tutsplus.com/meta-tags-and-seo--webdesign-9683a)**: The article explains the role of meta tags in SEO, emphasizing their importance for optimizing web pages. It provides specific examples and best practices for using meta tags to improve visibility in search engines.
-
-**[The `<link>` Tag in HTML](https://www.scaler.com/topics/link-tag-in-html/)**: This article explains the use of the `<link>` tag to link external styles and other resources to the web page. It demonstrates how to properly use this tag to connect style sheets, favicon icons, and other elements.
 
 **[Why the Title Tag Is Important](https://www.semrush.com/blog/title-tag/)**: SEMrush emphasizes the significance of the `<title>` tag for SEO and user perception. The article discusses best practices for crafting page titles that attract user attention and improve site positioning in search results.
 
@@ -364,35 +343,33 @@ It is very useful to learn and know, with practice all the abbreviations are mem
 
 ### Structural Tags
 
-🟢 **[The `<body>` Tag in HTML](https://www.scaler.com/topics/html/body-tag-in-html/)**: The role and attributes of the `<body>` element in HTML, which serves as a container for the main content of the web page, including text, images, links, and other web design elements.
+🟢 **[Using Article and Section Elements for Accessibility](https://www.smashingmagazine.com/2022/07/article-section-elements-accessibility/)**: Recommendations for using the `<article>` and `<section>` elements to improve content accessibility, ensuring better interaction with the website for all users.
 
-🟢 **[The `<main>` Tag in HTML](https://www.scaler.com/topics/main-tag-in-html/)**: Using the `<main>` tag to define the main content of the web page, helping search engines and assistive technologies identify the central content of the page.
+**[The `<body>` Tag in HTML](https://www.scaler.com/topics/html/body-tag-in-html/)**: The role and attributes of the `<body>` element in HTML, which serves as a container for the main content of the web page, including text, images, links, and other web design elements.
 
-🟢 **[The `<nav>` Tag in HTML](https://www.scaler.com/topics/nav-tag-in-html/)**: Application of the `<nav>` tag for creating a navigation menu on the web page, improving user orientation on the site and its overall navigation structure.
+**[The `<main>` Tag in HTML](https://www.scaler.com/topics/main-tag-in-html/)**: Using the `<main>` tag to define the main content of the web page, helping search engines and assistive technologies identify the central content of the page.
 
-🟢 **[The `<header>` Tag in HTML](https://www.scaler.com/topics/header-tag-in-html/)**: Using the `<header>` tag to define the top part of the web page, including headings, logos, and navigation elements that introduce the user to the site's content.
+**[The `<nav>` Tag in HTML](https://www.scaler.com/topics/nav-tag-in-html/)**: Application of the `<nav>` tag for creating a navigation menu on the web page, improving user orientation on the site and its overall navigation structure.
 
-🟢 **[The `<span>` Tag in HTML](https://www.scaler.com/topics/span-tag-in-html/)** and **[The `<div>` and `<span>` Tags in HTML](https://www.scaler.com/topics/div-and-span-in-html/)**: An overview of the roles of the `<div>` and `<span>` tags in grouping and styling elements in HTML, allowing developers to create visually appealing and structurally organized web pages.
+**[The `<header>` Tag in HTML](https://www.scaler.com/topics/header-tag-in-html/)**: Using the `<header>` tag to define the top part of the web page, including headings, logos, and navigation elements that introduce the user to the site's content.
 
-🟢 **[The `<section>` Tag in HTML](https://www.scaler.com/topics/section-tag-in-html/)**, **[The `<article>` Tag in HTML](https://www.scaler.com/topics/article-tag-in-html/)**, and **[Difference Between `<aside>` and `<article>`](https://htmlacademy.ru/blog/css/aside-vs-article)**: Details on the semantic use of the `<section>`, `<article>`, and differences between `<aside>` and `<article>`, emphasizing their importance in structuring content and improving accessibility.
+**[The `<span>` Tag in HTML](https://www.scaler.com/topics/span-tag-in-html/)** and **[The `<div>` and `<span>` Tags in HTML](https://www.scaler.com/topics/div-and-span-in-html/)**: An overview of the roles of the `<div>` and `<span>` tags in grouping and styling elements in HTML, allowing developers to create visually appealing and structurally organized web pages.
 
-**[Using Article and Section Elements for Accessibility](https://www.smashingmagazine.com/2022/07/article-section-elements-accessibility/)**: Recommendations for using the `<article>` and `<section>` elements to improve content accessibility, ensuring better interaction with the website for all users.
+**[The `<section>` Tag in HTML](https://www.scaler.com/topics/section-tag-in-html/)**, **[The `<article>` Tag in HTML](https://www.scaler.com/topics/article-tag-in-html/)**, and **[Difference Between `<aside>` and `<article>`](https://htmlacademy.ru/blog/css/aside-vs-article)**: Details on the semantic use of the `<section>`, `<article>`, and differences between `<aside>` and `<article>`, emphasizing their importance in structuring content and improving accessibility.
 
 **[Quick Tip: Consider Wrapping Your Code with a `<figure>` Element](https://webdesign.tutsplus.com/quick-tip-consider-wrapping-your-code-with-a-figure-element--cms-21646t)**: Tips on using the `<figure>` tag to wrap code on a web page, improving content structuring and visual presentation.
 
 ### Text
 
-🟢 **[Basic Tags for Text Markup](https://www.semrush.com/blog/html-tags-list/)**: SEMrush presents an overview of basic tags for text markup in HTML, explaining their role and application for creating structured and semantically correct content.
-
-🟢 **[Using the `<p>` Tag](https://www.scaler.com/topics/p-tag-in-html/)**: Explanation of using the `<p>` tag to create paragraphs, which is the foundation of text markup on web pages.
-
-🟢 **[Using the `<br>` Tag](https://www.scaler.com/topics/br-tag-in-html/)**: Explanation of applying the `<br>` tag to insert line breaks when necessary for improving text readability.
-
-🟢 **[Using the Horizontal Line (`<hr>`)](https://www.scaler.com/topics/hr-tag-in-html/)**: Explanation of how the `<hr>` tag is used to visually separate content on web pages.
-
 🟢 **[HTML Quotations](https://www.scaler.com/topics/html/html-quotations/)**: An overview of various ways to insert quotations in HTML code and design approaches to their formatting.
 
 🟢 **[Highlighting Important Text with `<strong>`](https://www.scaler.com/topics/strong-tag-in-html/)**: Explanation of using the `<strong>` tag to highlight important text, helping improve its perception and the semantic structure of the document.
+
+**[Using the `<p>` Tag](https://www.scaler.com/topics/p-tag-in-html/)**: Explanation of using the `<p>` tag to create paragraphs, which is the foundation of text markup on web pages.
+
+**[Using the `<br>` Tag](https://www.scaler.com/topics/br-tag-in-html/)**: Explanation of applying the `<br>` tag to insert line breaks when necessary for improving text readability.
+
+**[Using the Horizontal Line (`<hr>`)](https://www.scaler.com/topics/hr-tag-in-html/)**: Explanation of how the `<hr>` tag is used to visually separate content on web pages.
 
 **[Using the `<sub>` Tag](https://www.scaler.com/topics/sub-tag-in-html/)**: Learn how to apply the `<sub>` tag to display text in subscript, useful in scientific and mathematical documents.
 
@@ -424,15 +401,13 @@ It is very useful to learn and know, with practice all the abbreviations are mem
 
 ### Headings
 
-🟢 **[Headings and Paragraphs in HTML](https://www.scaler.com/topics/html/headings-and-paragraphs-in-html/)**: Scaler provides an overview of using headings and paragraphs in HTML, emphasizing their role in organizing content and improving readability of web pages.
+**[Headings and Paragraphs in HTML](https://www.scaler.com/topics/html/headings-and-paragraphs-in-html/)**: Scaler provides an overview of using headings and paragraphs in HTML, emphasizing their role in organizing content and improving readability of web pages.
 
 🟢 **[The Truth About Multiple `<h1>` Tags in the HTML5 Era](https://webdesign.tutsplus.com/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824a)**: This article on Tuts+ explains modern approaches to using multiple `<h1>` tags in the context of HTML5, dispelling old beliefs about limiting to one `<h1>` per page and explaining how this can contribute to a better semantic structure of the document.
 
 ### Lists
 
 🟢 **[Nested List in HTML](https://www.scaler.com/topics/nested-list-in-html/)**: Explains how to create nested lists in HTML, allowing detailed organization of information and improved document navigation.
-
-🟢 **[Creative List Styling](https://web.dev/articles/creative-list-styling)**: This article offers ideas and methods for creative list styling in HTML, using CSS to create visually appealing and functional designs.
 
 **[The `<ol>` Tag in HTML](https://www.scaler.com/topics/ol-tag-in-html/)**: Explains the use of ordered lists (`<ol>`) in HTML, which are ideal for presenting sequential or hierarchical information.
 
@@ -450,21 +425,11 @@ It is very useful to learn and know, with practice all the abbreviations are mem
 
 🟢 **[A Complete Guide to the `<table>` Element](https://css-tricks.com/complete-guide-table-element/)**: CSS-Tricks offers a detailed guide on using the `<table>` element in HTML and its attributes, covering everything from basic structure to complex formatting examples.
 
-🟢 **[Nested Table in HTML](https://www.scaler.com/topics/nested-table-in-html/)**: The article explains how to create nested tables in HTML, allowing detailed organization of complex data sets within the main table.
+**[Nested Table in HTML](https://www.scaler.com/topics/nested-table-in-html/)**: The article explains how to create nested tables in HTML, allowing detailed organization of complex data sets within the main table.
 
 **[Tables Cheatsheets](https://www.codecademy.com/learn/learn-html-tables/modules/html-tables/cheatsheet)**: Codecademy provides cheatsheets on tables in HTML, including the basic elements and attributes needed to create organized and visually appealing tables.
 
-**[The `<table>` Tag in HTML](https://www.scaler.com/topics/table-tag-in-html/)**: An overview of the `<table>` tag and its role in creating tables in HTML, including basic information on structure and use.
-
-**[The `<thead>` Tag in HTML](https://www.scaler.com/topics/thead/)**: The article explains the use of the `<thead>` tag to define the top part of a table, improving semantic structure and making data perception easier.
-
-**[The `<th>` Tag in HTML](https://www.scaler.com/topics/th-tag-in-html/)**: Clarifies the role of the `<th>` tag in defining headers in HTML tables, helping improve accessibility and structuring of information.
-
-**[The `<td>` Tag in HTML](https://www.scaler.com/topics/td-tag-in-html/)**: Explains how to use the `<td>` tag to create cells in HTML tables, representing the main content of the table.
-
-**[The `<tr>` Tag in HTML](https://www.scaler.com/topics/tr-tag-in-html/)**: The article explains the use of the `<tr>` tag to create rows in HTML tables, which are the foundation for grouping cells.
-
-**[How to Build a Stylish Responsive HTML Table](https://webdesign.tutsplus.com/how-to-build-a-stylish-responsive-html-table--cms-93253t)**: This guide on creating stylish and responsive tables in HTML offers modern styling methods that adapt tables to various devices and screen sizes.
+<!-- **[How to Build a Stylish Responsive HTML Table](https://webdesign.tutsplus.com/how-to-build-a-stylish-responsive-html-table--cms-93253t)**: This guide on creating stylish and responsive tables in HTML offers modern styling methods that adapt tables to various devices and screen sizes. -->
 
 ### Interactive
 
@@ -474,8 +439,6 @@ It is very useful to learn and know, with practice all the abbreviations are mem
 
 ### Links / Buttons
 
-🟢 **[The `<a>` Tag in HTML](https://www.scaler.com/topics/anchor-tag-in-html/)**: This article provides an overview of using the `<a>` tag to create hyperlinks, enabling navigation to other web pages, and explains various attributes for customizing link behavior.
-
 🟢 **[Quick Tip: Make Telephone Numbers Do Something](https://webdesign.tutsplus.com/quick-tip-make-telephone-numbers-do-something--webdesign-9271a)**: Tips on turning telephone numbers into interactive elements on a web page, allowing users to make calls directly from the site.
 
 🟢 **[Email Link in HTML](https://www.scaler.com/topics/email-link-in-html/)**: A guide to creating email links using HTML, utilizing the `<a>` tag to make it easy for users to send messages.
@@ -484,9 +447,11 @@ It is very useful to learn and know, with practice all the abbreviations are mem
 
 🟢 **[How to Link to a Specific Part of a Page in HTML](https://www.scaler.com/topics/how-to-link-to-a-specific-part-of-a-page-html/)**: A guide to creating links that redirect users to a specific part of the page, improving navigation and user experience.
 
-🟢 **[The `<button>`Tag in HTML](https://www.scaler.com/topics/button-tag-in-html/)**: An overview of using the `<button>` tag to create buttons that handle user actions on the web page.
-
 🟢 **[A Complete Guide to Links and Buttons](https://css-tricks.com/a-complete-guide-to-links-and-buttons/)**: A complete guide to creating links and buttons, including semantics, accessibility, and best practices for optimizing user interaction on your site.
+
+**[The `<a>` Tag in HTML](https://www.scaler.com/topics/anchor-tag-in-html/)**: This article provides an overview of using the `<a>` tag to create hyperlinks, enabling navigation to other web pages, and explains various attributes for customizing link behavior.
+
+**[The `<button>`Tag in HTML](https://www.scaler.com/topics/button-tag-in-html/)**: An overview of using the `<button>` tag to create buttons that handle user actions on the web page.
 
 **[HTML Download Link](https://www.scaler.com/topics/html-download-link/)**: Instructions on creating links for downloading files, allowing users to download content directly from your site.
 
@@ -494,7 +459,7 @@ It is very useful to learn and know, with practice all the abbreviations are mem
 
 🟢 **[About Attributes](https://web.dev/learn/html/attributes/)**: Web developers are offered a deep dive into the world of HTML attributes, discussing their importance and application for controlling the behavior and appearance of web page elements.
 
-🟢 **[Use the `lang` Attribute for Better Accessibility](https://webdesign.tutsplus.com/use-the-lang-attribute-for-better-accessibility--cms-31961t)**: Explanation of the importance of the `lang` attribute for improving web page accessibility, helping screen readers interpret the content's language correctly.
+**[Use the `lang` Attribute for Better Accessibility](https://webdesign.tutsplus.com/use-the-lang-attribute-for-better-accessibility--cms-31961t)**: Explanation of the importance of the `lang` attribute for improving web page accessibility, helping screen readers interpret the content's language correctly.
 
 **[List of Attributes and Tags They Can Apply To](https://html.spec.whatwg.org/multipage/indices.html#attributes-3)**: The official HTML specification offers a comprehensive list of attributes and indicates the tags to which they can be applied. This resource may seem complex at first glance but will become invaluable as you develop as a developer.
 
