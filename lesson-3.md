@@ -4,10 +4,8 @@
 **[Video record](https://drive.google.com/file/d/1LFTQpNfXoO1y0rZUdSaZknG6Ak9EGKBn/view?usp=drive_link)**<br />
  -->
 
-<!-- 
-**[Presentation](presentations/presentation-2.pdf)**<br />
-**[Manual](manuals/manual-2.pdf)**<br /> 
--->
+**[Presentation](presentations/html-0.pdf)**<br />
+**[Manual](manuals/manual-html.pdf)**<br /> 
 
 # Homework
 
@@ -15,7 +13,7 @@
 
    1. Choose file - index.html <br />
    2. Choose semantic tags, exclude block with search in header. <br />
-      All elements should be assigned classes. [Common class names cheat sheet](lesson-2-homeworks/class-names.md). <br />
+      All elements should be assigned classes. [Common class names cheat sheet](manuals/class-names.md). <br />
    3. Before submitting for review, [validate](https://validator.nu/#textarea) the markup.
    4. Check [headings tree](https://yoksel.github.io/html-tree/)
 
