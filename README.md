@@ -20,7 +20,7 @@
   
 14.10.2024 & 16.10.2024 [Lesson 2. GIT](lesson-2.md) <br />
 
-21.10.2024 & 23.10.2024 [Lesson 3. HTML] <br />
+21.10.2024 & 23.10.2024 [Lesson 3. HTML](lesson-3.md)  <br />
 
 30.10.2024 & 1.11.2024 [Lesson 4. Basic CSS] <br />
 

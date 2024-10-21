@@ -55,7 +55,7 @@ UTF-8 is universal and compatible; it is the current standard.
 SEO: Google trims titles between 472 to 482 pixels, so the title length should be around 55 characters.  
 ```<title>``` must be unique on each page.  
 
-5. 💛
+5. 💚
 **Description meta tag must be set**  
 The ```<meta type=”description”>``` must be unique and less than 150 characters.  
 It appears in search engines below the title.  
