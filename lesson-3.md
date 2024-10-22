@@ -1,10 +1,8 @@
 # Lesson 3. Semantic HTML
 
-<!-- 
-**[Video record](https://drive.google.com/file/d/1LFTQpNfXoO1y0rZUdSaZknG6Ak9EGKBn/view?usp=drive_link)**<br />
- -->
+**[Presentation 1](presentations/html-0.pdf)**<br />
+**[Video 1 record](https://drive.google.com/file/d/11clo-lAJbLrBdIoHAHbFdTTaM1tA2oIh/view?usp=drive_link)**<br />
 
-**[Presentation](presentations/html-0.pdf)**<br />
 **[Manual](manuals/manual-html.pdf)**<br /> 
 
 # Homework
