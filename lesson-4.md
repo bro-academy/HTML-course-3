@@ -44,124 +44,26 @@ For example:  ```font-family: Roboto, Arial, sans-serif;```
 3.5. ❤️
 **Do not use !important in CSS.** <br />
 
-   ❌ *Bad:* 
-   ```
-   .link {color: red !important;}
-   ```
-
-   ✅ *Good:*
-   ```
-   .selector .link {color: red;}
-   ```
-
 3.6. ❤️
 **Do not use #id for styling.** <br />
 
-   ❌ *Bad:* 
-   ```
-   #link {color: red;}
-   ```
-
-   ✅ *Good:*
-   ```
-   .link {color: red;}
-   ```
-
 3.7. 💛
 **Avoid nesting selectors more than two levels deep.**  <br />
-
-   ❌ *Bad:*
-   ```
-   .header .nav .nav-item .nav-link {}
-   ```
-
-   ✅ *Good:*
-   ```
-   .nav-link {}
-   .nav-link, 
-   .text-link {}
-   .header .nav-link {}
-   .footer .nav-link {}
-   ```
 
 3.8. 💛
 **Avoid styling tags directly** <br />
 except for body, ul, a, img. <br />
 
-   ❌ *Bad:*
-   ```
-   section {}
-   header {}
-   ```
-
-   ✅ *Good:*
-   ```
-   body {}
-   ul {}
-   a {}
-   img {}
-   .page-header {}
-   .block-section {}
-   ```
-
 3.9. 💛
 **Elements with background images should have a matching background color, if it's matter for text contrast** 
-   ```
-   section {
-      background-image: url(sunset.jpg);
-      background-color: orange;
-   }
-   ```
 
 3.10. ❤️
 **Use consistent units for element sizes and positioning.** <br />
-   Do not mix px and em. <br />
-   If the font-size/height is set in em, then set the margin/padding in em as well. 
-
-      ❌ *Bad:* 
-      ```
-      .link {
-         font-size: 12px;
-         line-height: 2em;
-      }
-
-      .text {
-         padding: 8px;
-         margin: 2.5em;
-      }
-
-      ```
-      ✅ *Good:*
-      ```
-      .link {
-         font-size: 12px;
-         line-height: 2px;
-      }
-
-      .text {
-         padding: 8px;
-         margin: 2.5px;
-      }
-      ```
 
 3.11. 💛
 **Colors should be in a consistent format (hex or rgba).** <br />
 Color notation is either in hex ```(#000)``` or rgba if there is transparency. <br />
 Keywords are not used. <br />
-
-      ❌ *Bad:* 
-      ```
-      .link {
-         color: black;
-      }
-      ```
-
-      ✅ *Good:*
-      ```
-      .link {
-         color: #000;
-      }
-      ```
 
 ## Additional homework:
 
