@@ -3,6 +3,8 @@
 **[Presentation 1](presentations/html-0.pdf)**<br />
 **[Video 1 record](https://drive.google.com/file/d/11clo-lAJbLrBdIoHAHbFdTTaM1tA2oIh/view?usp=drive_link)**<br />
 
+**[Presentation 2](presentations/html-1.pdf)**<br />
+
 **[Manual](manuals/manual-html.pdf)**<br /> 
 
 # Homework
@@ -318,6 +320,8 @@ It is very useful to learn and know, with practice all the abbreviations are mem
 🟢 **[Importance of Tags from an SEO Perspective](https://www.semrush.com/blog/best-practices-in-semantic-html5-for-content-writers/)**: SEMrush shares best practices for using semantic HTML5 from an SEO perspective for content marketers. The article explains how the correct application of semantic tags can significantly improve a website's positioning in search engines, making content more understandable and relevant to search queries.
 
 **[What is Semantic HTML & Why Is It Important for Accessibility?](https://www.codecademy.com/resources/blog/semantic-html/)**: Codecademy provides a detailed overview of semantic HTML, explaining why it is critically important for accessibility. The article emphasizes how semantic markup helps create more accessible web pages, improving interaction with various screen reading devices and search engines, which in turn contributes to broader content accessibility on the internet.
+
+**[HTML5 Element Flowchart](https://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)**: HTML5 Doctor made an exellent explanation how to choose tags by their semantics. There's more links in the PDF.
 
 ## Tags
 
