@@ -205,7 +205,7 @@ This section contains examples of different components in code. You can take cod
 
 <!-- **[Figma to HTML: Code Up a Single Page Design on Tuts+](https://webdesign.tutsplus.com/figma-to-html-code-up-a-single-page-design--CRS-200953c)**: Learn how to turn a design from Figma into a working web page using HTML. The course is suitable for designers and developers wanting to improve their skills in implementing designs. -->
 
-# Additional materials eng 
+# Additional materials 
 
 🟢 **[Stack Overflow: Best Technical Q&A Community](http://stackoverflow.com/)**: If you are learning HTML, you will find many discussions and answers to your questions on Stack Overflow. This community is the perfect place for knowledge exchange and problem-solving related to web development. Regardless of your level of knowledge, here you will find support and resources for learning and improving your HTML skills.
 
