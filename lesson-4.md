@@ -1,14 +1,14 @@
 # Lesson 4. Introduction to CSS
 
-<!-- **[Presentation](presentations/presentation-4.pdf)**<br />
-**[Manual](manuals/manual-css.pdf)**<br /> -->
-
+<!-- **[Presentation](presentations/presentation-4.pdf)**<br /> -->
 <!-- **[Video record](https://drive.google.com/file/d/19jHjiC_OBGG8i6usskaJlS2iIoP4yrhF/view?usp=drive_link)** <br /> -->
+
+**[Manual](manuals/manual-css.pdf)**<br /> 
 
 # Homework
 
-1. Create file `styles.css` and link it to all pages  with `<link>` tag. 
-   Write basic styles for the marked-up blocks of the layout using Emmet right away.
+1. Link `style.css` file to all pages with `<link>` tag. 
+2. Open file `style.css` and write basic styles for the marked-up blocks using Emmet.
       - font-*: font type / font weight / font size 
       - text properties: letter spacing / text align / text decoration / line height
       - text color
@@ -17,9 +17,9 @@
       - list-style 
       - opacity  
 
-2. Add fonts using [Google Fonts](https://fonts.google.com/).
+3. Add fonts using [Google Fonts](https://fonts.google.com/).
 
-3. Optional: Connect [normalize.css](https://necolas.github.io/normalize.css/) to your project as a separate file, use `<link>` tag in `<head>`.
+4. Optional: Connect [normalize.css](https://necolas.github.io/normalize.css/) to your project as a separate file, use `<link>` tag in `<head>`.
 
 ## Criteria CSS
 

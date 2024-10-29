@@ -22,7 +22,7 @@
 
 21.10.2024 & 23.10.2024 [Lesson 3. HTML](lesson-3.md)  <br />
 
-30.10.2024 & 1.11.2024 [Lesson 4. Basic CSS] <br />
+30.10.2024 & 1.11.2024 [Lesson 4. Basic CSS](lesson-4.md) <br />
 
 4.11.2024 & 6.11.2024 [Lesson 5. Images on the web] <br />
 
