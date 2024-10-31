@@ -1,7 +1,10 @@
 # Lesson 4. Introduction to CSS
 
-**[Presentation](presentations/css-0.pdf)**<br />
-<!-- **[Video record](https://drive.google.com/file/d/19jHjiC_OBGG8i6usskaJlS2iIoP4yrhF/view?usp=drive_link)** <br /> -->
+**[Presentation 1](presentations/css-0.pdf)**<br />
+**[Video record](https://drive.google.com/file/d/16xQQi4OWIXMPL6tuMUvYe2AVgy2JWjbo/view?usp=drive_link)** <br />
+
+<!-- **[Presentation 2](presentations/css-1.pdf)**<br /> -->
+<!-- **[Video record](https://drive.google.com/file/d/16xQQi4OWIXMPL6tuMUvYe2AVgy2JWjbo/view?usp=drive_link)** <br /> -->
 
 **[Manual](manuals/manual-css.pdf)**<br /> 
 
