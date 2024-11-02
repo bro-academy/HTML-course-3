@@ -3,8 +3,8 @@
 **[Presentation 1](presentations/css-0.pdf)**<br />
 **[Video record](https://drive.google.com/file/d/16xQQi4OWIXMPL6tuMUvYe2AVgy2JWjbo/view?usp=drive_link)** <br />
 
-<!-- **[Presentation 2](presentations/css-1.pdf)**<br /> -->
-<!-- **[Video record](https://drive.google.com/file/d/16xQQi4OWIXMPL6tuMUvYe2AVgy2JWjbo/view?usp=drive_link)** <br /> -->
+**[Presentation 2](presentations/css-1.pdf)**<br />
+**[Video record](https://drive.google.com/file/d/1hihcWx-TmHDhULURGE0cnhPUEqncYkQM/view?usp=drive_link)** <br />
 
 **[Manual](manuals/manual-css.pdf)**<br /> 
 
