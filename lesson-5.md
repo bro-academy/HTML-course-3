@@ -25,6 +25,12 @@
 
 ##  Criteria Images
 
+1.6. 💚  
+**Favicon icons display correctly.**  <br />
+
+2.9. 💛  
+**Elements with background images should have a matching background color.**  <br />
+
 4.1. ❤️
 **Correct Image Format** <br />
 Use WEBP for photos;  <br />
