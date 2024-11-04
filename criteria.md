@@ -364,7 +364,7 @@ CSS vendor prefixes are used and generated according to supported browsers. <br 
 
 1. ❤️
 **Correct Image Format** <br />
-Use JPEG or WEBP for photos;  <br />
+Use WEBP for photos;  <br />
 SVG for low-color images and icons. 
 
 2. ❤️

@@ -23,6 +23,34 @@
 2. Optimize the images.
 3. Create svg sprite. 
 
+##  Criteria Images
+
+4.1. ❤️
+**Correct Image Format** <br />
+Use WEBP for photos;  <br />
+SVG for low-color images and icons. 
+
+4.2. ❤️
+**Extract images without style filters from the design.** <br />
+Shadows, rounded corners, filters, blend modes, gradients, transparency, and others should be added using CSS. 
+
+4.3. ❤️
+**Image Insertion** <br />
+Use ```<img>``` for content images <br />
+```background-image``` for decorative images. 
+
+4.4. ❤️
+**Specify dimensions for all images.** <br />
+
+4.5. ❤️
+**Provide alt text for all images.** <br />
+
+4.6. 💛
+**Optimize images for browser rendering.** <br />
+
+4.7. 💚
+**Use vector sprites where applicable.** <br />
+
 # Demos 
 
 🟢 **[Styling Background-Image on CodePen](https://codepen.io/russweakley/pen/BaYMYmO)**: Master techniques for working with background images in CSS, making your design more dynamic and interactive. This example illustrates the basic principles of using `background-image`.
