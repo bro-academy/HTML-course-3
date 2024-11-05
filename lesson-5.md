@@ -1,6 +1,6 @@
 # Lesson 5. Images in the web
 
-<!-- **[Presentation](presentations/presentation-5.pdf)**<br />  -->
+**[Presentation](presentations/images-0.pdf)**<br />
 <!-- **[Video record](https://drive.google.com/file/d/1FdFArFAofmNqNBHd_ZrSW8R8wYiGiItQ/view?usp=drive_link)** <br /> -->
 
 **[Manual](manuals/manual-5.pdf)**<br /> 
