@@ -28,10 +28,10 @@
 
 ##  Criteria Images
 
-1.6. 💚  
+2.6. 💚  
 **Favicon icons display correctly.**  <br />
 
-2.9. 💛  
+3.9. 💛  
 **Elements with background images should have a matching background color.**  <br />
 
 4.1. ❤️
