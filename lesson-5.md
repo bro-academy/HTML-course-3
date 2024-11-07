@@ -3,7 +3,7 @@
 **[Presentation](presentations/images-0.pdf)**<br />
 **[Video record](https://drive.google.com/file/d/1Lp73QyhFqZCxaWif-43VZQ6vEV2A6P8v/view?usp=drive_link)** <br />
 
-<!-- **[Presentation](presentations/images-1.pdf)**<br /> -->
+**[Presentation](presentations/images-1.pdf)**<br />
 <!-- **[Video record](https://drive.google.com/file/d/1Lp73QyhFqZCxaWif-43VZQ6vEV2A6P8v/view?usp=drive_link)** <br /> -->
 
 **[Manual](manuals/manual-5.pdf)**<br /> 
