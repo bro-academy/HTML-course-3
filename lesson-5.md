@@ -4,7 +4,7 @@
 **[Video record](https://drive.google.com/file/d/1Lp73QyhFqZCxaWif-43VZQ6vEV2A6P8v/view?usp=drive_link)** <br />
 
 **[Presentation](presentations/images-1.pdf)**<br />
-<!-- **[Video record](https://drive.google.com/file/d/1Lp73QyhFqZCxaWif-43VZQ6vEV2A6P8v/view?usp=drive_link)** <br /> -->
+**[Video record](https://drive.google.com/file/d/1N--2q1ej1rAy-cQMBBK5Qg3tjRQmRuGi/view?usp=sharing)** <br />
 
 **[Manual](manuals/manual-5.pdf)**<br /> 
 
