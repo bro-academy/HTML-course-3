@@ -1,10 +1,9 @@
 # Lesson 6. Forms
 
-<!-- **[Presentation](presentations/presentation-6.pdf)**<br /> -->
-
+**[Presentation](presentations/presentation-form.pdf)**<br />
 <!-- **[Video record](https://drive.google.com/file/d/1JgGfRVoFj9hAjCO50C6AYQUwcEfY4mob/view?usp=drive_link)** <br /> -->
 
-<!-- **[Manual](manuals/manual-6.pdf)**<br /> -->
+**[Manual](manuals/manual-6.pdf)**<br />
 
 # Homework
 
@@ -40,7 +39,7 @@
    Follow the step-by-step guide to [create a survey form](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form) on FreeCodeCamp.
 
 5. **Style a Select Element**  
-   Style `Sort by <select>` element using the `Nice Select library`. You can complete this task in an editor or on CodePen.
+   Style `Sort by <select>` element using the [Nice Select library](https://jqueryniceselect.hernansartorio.com/). You can complete this task in an editor or on CodePen.
 
 ##  Criteria Forms
 
