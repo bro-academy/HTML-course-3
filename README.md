@@ -24,9 +24,9 @@
 
 30.10.2024 & 1.11.2024 [Lesson 4. Basic CSS](lesson-4.md) <br />
 
-4.11.2024 & 6.11.2024 [Lesson 5. Images on the web] <br />
+4.11.2024 & 6.11.2024 [Lesson 5. Images on the web](lesson-5.md) <br />
 
-11.11.2024 & 13.11.2024 [Lesson 6. Forms] <br />
+11.11.2024 & 13.11.2024 [Lesson 6. Forms](lesson-6.md) <br />
 
 18.11.2024 & 20.11.2024 [Lesson 7. Box model and flexbox] <br />
 

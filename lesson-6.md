@@ -1,7 +1,7 @@
 # Lesson 6. Forms
 
 **[Presentation](presentations/presentation-form.pdf)**<br />
-<!-- **[Video record](https://drive.google.com/file/d/1JgGfRVoFj9hAjCO50C6AYQUwcEfY4mob/view?usp=drive_link)** <br /> -->
+**[Video record 1](https://drive.google.com/file/d/1Ft_OCcp4r9qxKAAtTH0pTxU8flpeCPI-/view?usp=drive_link)** <br />
 
 **[Manual](manuals/manual-6.pdf)**<br />
 
