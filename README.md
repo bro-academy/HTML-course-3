@@ -28,9 +28,9 @@
 
 11.11.2024 & 13.11.2024 [Lesson 6. Forms](lesson-6.md) <br />
 
-18.11.2024 & 20.11.2024 [Lesson 7. Box model and flexbox] <br />
+18.11.2024 & 20.11.2024 [Lesson 7. Box model and flexbox](lesson-7.md) <br />
 
-25.11.2024 & 27.11.2024 [Lesson 8. Grid layout] <br />
+25.11.2024 & 27.11.2024 [Lesson 8. Grid layout](lesson-8.md) <br />
 
 2.12.2024 & 4.12.2024 [Lesson 9. CSS+] <br />
 

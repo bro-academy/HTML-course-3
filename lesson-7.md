@@ -1,7 +1,8 @@
 # Lesson 7. Box-model, position, flexbox
 
 <!-- **[Presentation](presentations/presentation-7.pdf)**<br /> -->
-<!-- **[Video record](https://drive.google.com/file/d/1hfN5zd4a9B_ZLXWi7jsRCg3cY9dKqldO/view?usp=drive_link)** <br /> -->
+<!-- **[Video record]()** <br /> -->
+<!-- **[Video record]()** <br /> -->
 
 **[Manual](manuals/manual-box-model.pdf)**<br />
 
@@ -35,6 +36,12 @@
       - Filter tags 
       - Hover on card 
 
+##  Criteria Layout
+
+12. ❤️
+**Use flex or grid for layouts** <br />
+Do not use tables or positioning. 
+
 ## Interactive Flexbox Learning (Optional but Encouraged)
 If you prefer a more interactive approach, try practicing Flexbox using one of these fun and educational games:
 
@@ -50,7 +57,6 @@ If you prefer a more interactive approach, try practicing Flexbox using one of t
 
 ## Additional homework 
 
-### Part 1: Complete a Course
 To reinforce the concepts covered in class, choose one of the following courses and complete it:
 
 1. **FreeCodeCamp Box Model Course**:
@@ -70,6 +76,8 @@ To reinforce the concepts covered in class, choose one of the following courses 
 5. **[Learn CSS: Flexbox and Grid Course](https://www.codecademy.com/learn/learn-css-flexbox-and-grid)**: A course from Codecademy teaches the use of Flexbox and Grid for creating responsive layouts, which is critically important for modern web developers.
 
 ## Demos
+
+🟢 **[Box-Sizing Model](http://codepen.io/lizzzzzy/pen/LbVXPd)**: An interactive demo showing how the `box-sizing` property affects element sizes in CSS.
 
 **[Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/)**: A collection of ready-made solutions demonstrating the power of Flexbox to simplify complex CSS tasks.
 
