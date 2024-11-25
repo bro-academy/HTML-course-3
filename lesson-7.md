@@ -1,8 +1,8 @@
 # Lesson 7. Box-model, position, flexbox
 
-<!-- **[Presentation](presentations/presentation-7.pdf)**<br /> -->
-<!-- **[Video record]()** <br /> -->
-<!-- **[Video record]()** <br /> -->
+**[Presentation](presentations/presentation-flex.pdf)**<br />
+**[Video record](https://drive.google.com/file/d/14XkIGDW1fFjUHs7-Fdu9nOjgnnQHquty/view?usp=drive_link)** <br />
+**[Video record](https://drive.google.com/file/d/1rkhm43sFI0oWwUQ3PreHZC-WxfbhCxgH/view?usp=drive_link)** <br />
 
 **[Manual](manuals/manual-box-model.pdf)**<br />
 
