@@ -1,6 +1,6 @@
 # Lesson 9. CSS+
 
-**[Presentation](presentations/presentation-9.pdf)**<br />
+**[Presentation](presentations/presentation-css-magic-1.pdf)**<br />
 <!-- **[Video record]()** <br /> -->
 <!-- **[Video record]()** <br /> -->
 
