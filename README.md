@@ -7,9 +7,6 @@
 [Homework template Figma - Binabox](https://www.figma.com/design/jqIedRSOsKC20T9QeDDNdL/BinaBox-UI-KIT?m=auto&t=gBzlUoU5MRyDe3QY-6) <br />
 [Diploma template Figma - PixMart](https://www.figma.com/design/7HK7TzghZnR3ZhxB18Rrox/PixMart---Website-UI-Figma?node-id=3424-5669&node-type=section&t=fC9uoV5QxDnRSfNo-0)  <br />
 
-<!-- [Lectures template Figma - Pharmify](https://www.figma.com/design/auFieaBExddBH3NrBBcx2N/Pharmify-UI-KIT?t=gBzlUoU5MRyDe3QY-1) <br />
-**[Example project - Pharmify](https://github.com/broacademy/pharmify)**<br /> -->
-
 [Jira Board](https://bro-academy.atlassian.net/jira/software/projects/BAHC3/boards/2) <br />
 
 [Presentations](presentations) <br />
@@ -32,7 +29,7 @@
 
 25.11.2024 & 27.11.2024 [Lesson 8. Grid layout](lesson-8.md) <br />
 
-2.12.2024 & 4.12.2024 [Lesson 9. CSS+] <br />
+2.12.2024 & 4.12.2024 [Lesson 9. CSS+](lesson-9.md) <br />
 
 9.12.2024 & 11.12.2024 [Lesson 10. Animations] <br />
 

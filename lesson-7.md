@@ -195,6 +195,8 @@ To reinforce the concepts covered in class, choose one of the following courses 
 
 **[Breaking Out of a Central Wrapper](https://css-irl.info/breaking-out-of-a-central-wrapper/)**: This article discusses the challenges and solutions for "breaking out" content beyond a central wrapper on a web page, which is often necessary for full-width design elements.
 
+**[Aligning Content in Different Wrappers](https://ishadeed.com/article/aligning-content-different-wrappers)**: Strategies for aligning content in various containers.
+
 ## Flexbox
 
 🟢 **[CSS Flexbox: A Complete Guide](https://sharkcoder.com/layout/flexbox)**: This guide covers everything about using CSS Flexbox, including the properties for both the flex container (parent element) and the flex items (children). It features practical examples and tips to utilize flexbox effectively for responsive designs.

@@ -1,8 +1,7 @@
 # Lesson 8. Grid
 
 **[Presentation](presentations/presentation-grid.pdf)**<br />
-<!-- **[Video record]()** <br /> -->
-<!-- **[Video record]()** <br /> -->
+Sorry, we missed records of this lesson.
 
 **[Manual](manuals/manual-grid.pdf)**<br />
 
@@ -203,6 +202,18 @@ Optional: Practice creating grids. Start with simple small examples. Rewrite the
 **[Generated Content and Grid Layout](https://www.smashingmagazine.com/2018/02/generated-content-grid-layout)**: Using generated content within a CSS Grid layout.
 
 🟢 **[Inspect CSS grid layouts in DevTools](https://developer.chrome.com/docs/devtools/css/grid)**: This guide shows you how to discover CSS grids on a page, examine them, and debug layout issues in the Elements panel of Chrome DevTools.
+
+🟢 **[Exploring Box Alignment](https://ishadeed.com/article/learn-box-alignment/)**: A deep analysis of box alignment mechanisms in CSS.
+
+### Centering
+
+[Centering in CSS](https://web.dev/articles/centering-in-css?hl=en): An exploration of various methods for centering elements in CSS, from Flexbox to Grid.
+
+[A Complete Guide to Centering in CSS](https://css-tricks.com/centering-css-complete-guide/): A comprehensive guide to centering elements using CSS.
+
+🟢 [Exploring Centering with CSS](https://ishadeed.com/article/learn-css-centering): A detailed review of centering techniques in modern web design.
+
+<!-- [How to Center Anything in CSS Using Flexbox and Grid](https://morioh.com/a/94ee4ede4154/how-to-center-anything-in-css-using-flexbox-and-grid): A tutorial on how to center any elements using Flexbox and Grid. -->
 
 ## Properties
 
