@@ -1,8 +1,8 @@
 # Lesson 9. CSS+
 
 **[Presentation](presentations/presentation-css-magic-1.pdf)**<br />
-<!-- **[Video record]()** <br /> -->
-<!-- **[Video record]()** <br /> -->
+**[Presentation](presentations/presentation-css-magic-2.pdf)**<br />
+Sorry, we missed records of this lesson.
 
 **[Manual](manuals/manual-css_plus.pdf)**<br />
 

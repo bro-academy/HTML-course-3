@@ -1,6 +1,6 @@
 # Lesson 10. Animation
 
-**[Presentation](presentations/presentation-10.pdf)**<br />
+**[Presentation](presentations/presentation-animations.pdf)**<br />
 <!-- **[Video record]()** <br /> -->
 <!-- **[Video record]()** <br /> -->
 

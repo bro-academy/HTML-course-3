@@ -2,7 +2,7 @@
 
 ## HTML course #3
 
-9.10.24 - 16.12.2024
+9.10.24 - 18.12.2024
 
 [Homework template Figma - Binabox](https://www.figma.com/design/jqIedRSOsKC20T9QeDDNdL/BinaBox-UI-KIT?m=auto&t=gBzlUoU5MRyDe3QY-6) <br />
 [Diploma template Figma - PixMart](https://www.figma.com/design/7HK7TzghZnR3ZhxB18Rrox/PixMart---Website-UI-Figma?node-id=3424-5669&node-type=section&t=fC9uoV5QxDnRSfNo-0)  <br />
@@ -31,8 +31,8 @@
 
 2.12.2024 & 4.12.2024 [Lesson 9. CSS+](lesson-9.md) <br />
 
-9.12.2024 & 11.12.2024 [Lesson 10. Animations] <br />
+9.12.2024 & 11.12.2024 [Lesson 10. Animations](lesson-10.md) <br />
 
 16.12.2024 [Pre final] <br />
 
-[Graduation] :tada: :tada: :tada: <br />
+18.12.2024 [Graduation] :tada: :tada: :tada: <br />
