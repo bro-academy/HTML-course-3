@@ -138,7 +138,7 @@ Check it on https://yoksel.github.io/html-tree.  <br />
 18. ❤️
 **Appropriate types for input are specified.**  <br />
 This is especially important for mobile devices as they use different keyboards for different input types.  <br />
-https://mobileinputtypes.com 
+http://mobileinputtypes.com 
 
 19. ❤️
 **Each form element should have a ```<label>```.** <br />
