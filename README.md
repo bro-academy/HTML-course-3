@@ -33,6 +33,6 @@
 
 9.12.2024 & 11.12.2024 [Lesson 10. Animations](lesson-10.md) <br />
 
-16.12.2024 [Pre final] <br />
+16.12.2024 [Pre final](pre-final.md)  <br />
 
-18.12.2024 [Graduation] :tada: :tada: :tada: <br />
+18.12.2024 [Graduation](final.md)  :tada: :tada: :tada: <br />
